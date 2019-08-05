@@ -1,0 +1,28 @@
+
+{
+    //
+    "version": "2.0.0",
+    "command": "yarn",
+    "args": [
+        "run-script"
+    ],
+    "tasks": [
+        {
+          
+            "type": "typescript",
+            "tsconfig": "tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        },
+        {
+            "label": "killChromeDriver",
+            
+            "type": "shell",
+            "command": "taskkill",
+            "args": [
+                "/im", "chromedriver*", "/f"
+            ]
+        }
+    ]
+}
