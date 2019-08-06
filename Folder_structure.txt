@@ -1,0 +1,15 @@
+Typscript automation:
+
+ Folder structure : 
+
+ .vscode 
+    launch.json
+    task.json
+ protractor.conf.ts
+ package.json
+ tsconfig.json
+
+
+
+.vscode folder will be created once the code is debugged along with launch.json file
+
