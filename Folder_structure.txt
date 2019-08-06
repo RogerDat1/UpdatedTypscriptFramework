@@ -11,5 +11,16 @@ Typscript automation:
 
 
 
-.vscode folder will be created once the code is debugged along with launch.json file
+.vscode folder will be created once the code is debugged along with launch.json file  
+
+- node modules can be deleted from here 
+--run below commands to install node modules(succesfull installation) 
+-- yarn add tsc 
+-- yarn setup 
+------------------------------------------------------------------------------------------------
+To run the .ts file in framework
+--press f5 
+
+
+
 
